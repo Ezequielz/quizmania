@@ -1,0 +1,492 @@
+[
+  {
+    "id": 1,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para aplicar sombra a un elemento?",
+    "code": null,
+    "answers": [
+      "text-shadow",
+      "shadow-effect",
+      "box-shadow",
+      "element-shadow"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 2,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para cambiar el color del texto?",
+    "code": null,
+    "answers": [
+      "text-color",
+      "color",
+      "font-color",
+      "text-style"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 3,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para ajustar el espacio entre las letras?",
+    "code": null,
+    "answers": [
+      "word-spacing",
+      "text-spacing",
+      "line-spacing",
+      "letter-spacing"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 4,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para cambiar el tamaño de la fuente?",
+    "code": null,
+    "answers": [
+      "text-size",
+      "font-size",
+      "font-style",
+      "text-scale"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 5,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para cambiar la alineación del texto en un elemento?",
+    "code": null,
+    "answers": [
+      "alignment",
+      "text-style",
+      "text-align",
+      "align-text"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 6,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para aplicar una transición suave a un elemento?",
+    "code": null,
+    "answers": [
+      "animation",
+      "transform",
+      "transformation",
+      "transition"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 7,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para ocultar un elemento visualmente sin eliminarlo del flujo del documento?",
+    "code": null,
+    "answers": [
+      "visibility",
+      "display",
+      "opacity",
+      "hidden"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para crear una sombra suave alrededor de un elemento?",
+    "code": null,
+    "answers": [
+      "text-shadow",
+      "box-shadow",
+      "shadow-effect",
+      "element-shadow"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 9,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para establecer la opacidad de un elemento?",
+    "code": null,
+    "answers": [
+      "transparency",
+      "alpha",
+      "opacity",
+      "visibility"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 10,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para crear un diseño flexible y adaptable a diferentes tamaños de pantalla?",
+    "code": null,
+    "answers": [
+      "grid",
+      "flexbox",
+      "layout",
+      "responsive"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 11,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para aplicar una animación a un elemento?",
+    "code": null,
+    "answers": [
+      "animation",
+      "transition",
+      "transform",
+      "animate"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para especificar la ruta de una imagen de fondo?",
+    "code": null,
+    "answers": [
+      "background-image",
+      "image-source",
+      "bg-image",
+      "img-background"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 13,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para establecer el color de fondo de un elemento?",
+    "code": null,
+    "answers": [
+      "color",
+      "background",
+      "bg-color",
+      "background-color"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 14,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para establecer el espaciado entre las líneas de un párrafo?",
+    "code": null,
+    "answers": [
+      "letter-spacing",
+      "word-spacing",
+      "line-height",
+      "line-spacing"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 15,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para establecer la fuente de un elemento de texto?",
+    "code": null,
+    "answers": [
+      "font-family",
+      "font-style",
+      "font-size",
+      "text-font"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 16,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para agregar un borde a un elemento?",
+    "code": null,
+    "answers": [
+      "border-style",
+      "border",
+      "border-color",
+      "border-width"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 17,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para establecer el tamaño máximo que puede tener un elemento?",
+    "code": null,
+    "answers": [
+      "max-width",
+      "width",
+      "min-width",
+      "element-width"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 18,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para aplicar una transformación 2D a un elemento, como rotación o escala?",
+    "code": null,
+    "answers": [
+      "transform",
+      "transition",
+      "animation",
+      "translate"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 19,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para establecer el orden de apilamiento de los elementos?",
+    "code": null,
+    "answers": [
+      "position",
+      "z-index",
+      "display",
+      "stack-order"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 20,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para aplicar una animación a un elemento mediante la especificación de fotogramas clave?",
+    "code": null,
+    "answers": [
+      "transition",
+      "transform",
+      "animation",
+      "animate"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 21,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para establecer el espaciado entre las palabras dentro de un texto?",
+    "code": null,
+    "answers": [
+      "letter-spacing",
+      "line-height",
+      "word-spacing",
+      "word-spacing"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 22,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para aplicar una transición suave a un elemento cuando cambia su estado?",
+    "code": null,
+    "answers": [
+      "animation",
+      "transform",
+      "transformation",
+      "transition"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 23,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para crear un diseño de varias columnas en un elemento de bloque?",
+    "code": null,
+    "answers": [
+      "column-layout",
+      "column-count",
+      "multi-columns",
+      "block-columns"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 24,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para especificar el tamaño y el estilo del cursor cuando se sitúa sobre un elemento?",
+    "code": null,
+    "answers": [
+      "pointer",
+      "hover",
+      "cursor",
+      "mouse-cursor"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 25,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para establecer la forma en que se comporta un elemento si el contenido excede su tamaño?",
+    "code": null,
+    "answers": [
+      "overflow",
+      "content-overflow",
+      "element-size",
+      "container-overflow"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 26,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para establecer una imagen de fondo que se repite en el eje x y/o y?",
+    "code": null,
+    "answers": [
+      "image-repeat",
+      "bg-repeat",
+      "repeat-image",
+      "background-repeat"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 27,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes propiedades de CSS3 se utiliza para establecer la forma en que los elementos flotantes se posicionan con respecto a otros elementos?",
+    "code": null,
+    "answers": [
+      "position",
+      "clear",
+      "float",
+      "alignment"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 28,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes propiedades de CSS se utiliza para controlar el espacio entre las celdas de una tabla?",
+    "code": null,
+    "answers": [
+      "border-spacing",
+      "cell-spacing",
+      "table-spacing",
+      "padding"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "level": "Medio",
+    "question": "¿Cuál es el valor predeterminado de la propiedad 'position' en CSS?",
+    "code": null,
+    "answers": [
+      "relative",
+      "absolute",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 30,
+    "level": "Medio",
+    "question": "¿Qué propiedad de CSS se utiliza para ocultar un elemento sin afectar al diseño de la página?",
+    "code": null,
+    "answers": [
+      "display: none",
+      "visibility: hidden",
+      "opacity: 0",
+      "position: absolute; top: -9999px"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 31,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes unidades de medida se utiliza para especificar el ancho de un borde en CSS?",
+    "code": null,
+    "answers": [
+      "em",
+      "rem",
+      "px",
+      "pt"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 32,
+    "level": "Medio",
+    "question": "¿Cuál es el selector de CSS que se utiliza para seleccionar todos los elementos que son descendientes directos de otro elemento?",
+    "code": null,
+    "answers": [
+      ">",
+      "++",
+      "~",
+      " "
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "level": "Difícil",
+    "question": "¿Cuál es la diferencia entre 'position: relative' y 'position: absolute' en CSS?",
+    "code": null,
+    "answers": [
+      "position: relative mueve un elemento con respecto a su posición original, mientras que position: absolute lo posiciona con respecto a su primer elemento posicionado padre.",
+      "No hay diferencia entre ellos, ambos hacen lo mismo.",
+      "position: relative posiciona un elemento en relación con la ventana del navegador, mientras que position: absolute lo posiciona en relación con el viewport.",
+      "position: relative y position: absolute son lo mismo en CSS."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 34,
+    "level": "Difícil",
+    "question": "¿Qué es el modelo de caja en CSS y cómo funciona?",
+    "code": null,
+    "answers": [
+      "El modelo de caja es una representación abstracta de cómo se renderizan los elementos en una página web, incluyendo su contenido, relleno, borde y margen.",
+      "El modelo de caja se refiere a cómo se organiza el contenido dentro de un contenedor div en CSS.",
+      "El modelo de caja se utiliza para controlar el diseño de una página web, pero no tiene ninguna relación con los elementos HTML.",
+      "El modelo de caja se utiliza solo en JavaScript para calcular dimensiones de elementos."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "level": "Difícil",
+    "question": "¿Cuál es la diferencia entre 'display: inline' y 'display: inline-block' en CSS?",
+    "code": null,
+    "answers": [
+      "display: inline hace que el elemento se comporte como una parte de texto en línea, mientras que display: inline-block permite aplicar propiedades de bloque y línea al elemento.",
+      "No hay diferencia entre ellos, ambos hacen lo mismo.",
+      "display: inline crea un elemento en línea, pero display: inline-block crea un elemento en línea con un margen adicional.",
+      "display: inline hace que el elemento se comporte como un bloque en línea, mientras que display: inline-block permite aplicar propiedades de bloque al elemento."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 36,
+    "level": "Difícil",
+    "question": "¿Qué es la especificidad en CSS y cómo se calcula?",
+    "code": null,
+    "answers": [
+      "La especificidad en CSS determina qué conjunto de reglas se aplicará a un elemento cuando hay conflictos. Se calcula sumando los valores de especificidad de las clases, IDs y elementos en las reglas.",
+      "La especificidad en CSS es una propiedad que solo se aplica a elementos en línea.",
+      "La especificidad en CSS se calcula contando el número total de reglas en una hoja de estilo.",
+      "La especificidad en CSS es una característica obsoleta y ya no se utiliza en las versiones modernas de CSS."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 37,
+    "level": "Difícil",
+    "question": "¿Cuál es la diferencia entre 'margin' y 'padding' en CSS?",
+    "code": null,
+    "answers": [
+      "Margin se refiere al espacio fuera del borde de un elemento, mientras que padding se refiere al espacio dentro del borde de un elemento.",
+      "Margin y padding son términos intercambiables y se utilizan indistintamente en CSS.",
+      "Margin y padding son propiedades obsoletas en CSS y no se deben utilizar en diseños modernos.",
+      "Margin se refiere al espacio dentro del borde de un elemento, mientras que padding se refiere al espacio fuera del borde de un elemento."
+    ],
+    "correctAnswer": 3
+  }
+ 
+    
+  
+  
+  
+    
+  
+  
+
+]

@@ -1,0 +1,407 @@
+[ 
+  {
+    "id": 1,
+    "level": "Difícil",
+    "question": "¿Cuál es la forma correcta de definir un enlace de correo electrónico en HTML5?",
+    "code": "",
+    "answers": [
+      "<a href='mailto:email@example.com'>Email</a>",
+      "<a email='email@example.com'>Email</a>",
+      "<a link='email@example.com'>Email</a>",
+      "<a>email@example.com</a>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "level": "Difícil",
+    "question": "¿Cuál es el propósito de la etiqueta <canvas> en HTML5?",
+    "code": "",
+    "answers": [
+      "Permite la inclusión de gráficos vectoriales en una página web.",
+      "Permite la inclusión de animaciones en una página web.",
+      "Permite la inclusión de gráficos rasterizados en una página web.",
+      "Permite la inclusión de gráficos 3D en una página web."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 3,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado de la siguiente operación en JavaScript? document.getElementById('demo').innerHTML = 5 + 6 + '7';",
+    "code": "",
+    "answers": [
+      "567",
+      "18",
+      "Error de sintaxis",
+      "Undefined"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "level": "Difícil",
+    "question": "¿Cuál es el atributo HTML5 que se utiliza para especificar si un campo de entrada es obligatorio?",
+    "code": "",
+    "answers": [
+      "required",
+      "mandatory",
+      "obligatory",
+      "needed"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "level": "Difícil",
+    "question": "¿Cuál es la etiqueta HTML5 que se utiliza para definir una sección de un formulario?",
+    "code": "",
+    "answers": [
+      "<form>",
+      "<fieldset>",
+      "<section>",
+      "<input>"
+    ],
+    "correctAnswer": 1
+  },
+    {
+      "id": 6,
+      "level": "Medio",
+      "question": "¿Cuál es la diferencia entre las etiquetas <section> y <article> en HTML5?",
+      "code": "",
+      "answers": [
+        "<section> define una sección de contenido temático y <article> define un artículo completo.",
+        "<section> define una sección completa de la página y <article> define una sección de contenido temático.",
+        "<section> define una sección de contenido temático y <article> define una sección completa de la página.",
+        "<section> y <article> son sinónimos y pueden ser usados indistintamente."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "level": "Medio",
+      "question": "¿Cuál es el propósito de la etiqueta <meta> en HTML5?",
+      "code": "",
+      "answers": [
+        "Definir el título de la página.",
+        "Indicar la codificación de caracteres del documento.",
+        "Especificar las palabras clave del contenido de la página.",
+        "Establecer la descripción del contenido de la página."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "level": "Medio",
+      "question": "¿Cuál de los siguientes elementos HTML es un contenedor en línea?",
+      "code": "",
+      "answers": [
+        "<div>",
+        "<p>",
+        "<article>",
+        "<section>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "level": "Medio",
+      "question": "¿Qué atributo de HTML se utiliza para especificar el texto alternativo para una imagen?",
+      "code": "",
+      "answers": [
+        "src",
+        "alt",
+        "title",
+        "href"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "level": "Medio",
+      "question": "¿Cuál es la etiqueta HTML5 que se utiliza para definir una lista desordenada?",
+      "code": "",
+      "answers": [
+        "<ul>",
+        "<li>",
+        "<ol>",
+        "<dl>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+        "id": 11,
+        "level": "Fácil",
+        "question": "¿Qué significa HTML?",
+        "code": null,
+        "answers": ["HyperText Markup Language", "High Tech Markup Language", "Home Tool Markup Language", "HyperLink Markup Language"],
+        "correctAnswer": 0
+      },
+      {
+        "id": 12,
+        "level": "Fácil",
+        "question": "¿Qué etiqueta se utiliza para crear un enlace en HTML?",
+        "code": null,
+        "answers": ["<a>", "<link>", "<href>", "<url>"],
+        "correctAnswer": 0
+      },
+      {
+        "id": 13,
+        "level": "Fácil",
+        "question": "¿Qué etiqueta se utiliza para crear una lista ordenada en HTML?",
+        "code": null,
+        "answers": ["<ol>", "<ul>", "<li>", "<list>"],
+        "correctAnswer": 0
+      },
+      {
+        "id": 14,
+        "level": "Fácil",
+        "question": "¿Qué etiqueta se utiliza para crear una imagen en HTML?",
+        "code": null,
+        "answers": ["<img>", "<picture>", "<image>", "<src>"],
+        "correctAnswer": 0
+      },
+      {
+        "id": 15,
+        "level": "Fácil",
+        "question": "¿Qué etiqueta se utiliza para crear un párrafo en HTML?",
+        "code": null,
+        "answers": ["<p>", "<par>", "<para>", "<paragraph>"],
+        "correctAnswer": 0
+      },
+      {
+        "id": 16,
+        "level": "Medio",
+        "question": "¿Qué atributo se utiliza para especificar la URL de destino de un enlace?",
+        "code": null,
+        "answers": ["href", "src", "link", "url"],
+        "correctAnswer": 0
+      },
+      {
+        "id": 17,
+        "level": "Medio",
+        "question": "¿Qué etiqueta se utiliza para crear una tabla en HTML?",
+        "code": null,
+        "answers": ["<table>", "<tr>", "<td>", "<th>"],
+        "correctAnswer": 0
+      },
+      {
+        "id": 18,
+        "level": "Medio",
+        "question": "¿Qué atributo se utiliza para especificar el ancho de una imagen en HTML?",
+        "code": null,
+        "answers": ["width", "height", "size", "length"],
+        "correctAnswer": 0
+      },
+      {
+        "id": 19,
+        "level": "Medio",
+        "question": "¿Qué atributo se utiliza para hacer que un enlace se abra en una nueva ventana del navegador?",
+        "code": null,
+        "answers": ["target", "window", "new", "external"],
+        "correctAnswer": 0
+      },
+      {
+        "id": 20,
+        "level": "Medio",
+        "question": "¿Qué etiqueta se utiliza para crear un formulario en HTML?",
+        "code": null,
+        "answers": ["<form>", "<input>", "<button>", "<label>"],
+        "correctAnswer": 0
+      },
+      {
+        "id": 21,
+        "level": "Difícil",
+        "question": "¿Cuál es la forma correcta de definir un enlace de correo electrónico en HTML5?",
+        "code": "",
+        "answers": [
+          "<a href='mailto:email@example.com'>Email</a>",
+          "<a email='email@example.com'>Email</a>",
+          "<a link='email@example.com'>Email</a>",
+          "<a>email@example.com</a>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 22,
+        "level": "Difícil",
+        "question": "¿Cuál es el elemento principal en HTML5 que se utiliza para agrupar elementos de encabezado, navegación y contenido en una página web?",
+        "code": "",
+        "answers": [
+          "<div>",
+          "<header>",
+          "<section>",
+          "<article>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 23,
+        "level": "Difícil",
+        "question": "¿Cuál es el propósito principal del elemento HTML 'canvas'?",
+        "code": "",
+        "answers": [
+          "Dibujar gráficos vectoriales",
+          "Reproducir audio y video",
+          "Crear formularios interactivos",
+          "Definir tablas de datos"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 24,
+        "level": "Difícil",
+        "question": "¿Cuál es el estándar actual de HTML en 2023?",
+        "code": "",
+        "answers": [
+          "HTML4",
+          "HTML5",
+          "HTML6",
+          "HTML2023"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 25,
+        "level": "Difícil",
+        "question": "¿Cuál es el propósito del elemento 'iframe' en HTML?",
+        "code": "",
+        "answers": [
+          "Mostrar videos en línea",
+          "Insertar contenido de otros sitios web de manera externa",
+          "Crear formularios de entrada de datos",
+          "Definir estructuras de tabla avanzadas"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 26,
+        "level": "Medio",
+        "question": "¿Cuál es el propósito del elemento 'form' en HTML?",
+        "code": "",
+        "answers": [
+          "Dibujar gráficos vectoriales",
+          "Mostrar imágenes",
+          "Crear formularios para recopilar datos del usuario",
+          "Reproducir audio y video"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "level": "Medio",
+        "question": "¿Cuál es el atributo utilizado en el elemento 'img' para especificar una descripción alternativa para la imagen?",
+        "code": "",
+        "answers": [
+          "alt",
+          "title",
+          "caption",
+          "description"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 28,
+        "level": "Medio",
+        "question": "¿Cuál es el propósito del elemento 'table' en HTML?",
+        "code": "",
+        "answers": [
+          "Mostrar videos en línea",
+          "Presentar datos en una tabla",
+          "Crear listas ordenadas",
+          "Definir estructuras de encabezado"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 29,
+        "level": "Medio",
+        "question": "¿Cuál es el elemento principal utilizado para crear una lista ordenada en HTML?",
+        "code": "",
+        "answers": [
+          "<ul>",
+          "<li>",
+          "<ol>",
+          "<dl>"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 30,
+        "level": "Medio",
+        "question": "¿Cuál es el propósito del elemento 'a' en HTML?",
+        "code": "",
+        "answers": [
+          "Mostrar imágenes",
+          "Crear formularios",
+          "Definir encabezados",
+          "Crear enlaces a otras páginas web o recursos"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 31,
+        "level": "Fácil",
+        "question": "¿Cuál es el lenguaje de marcado utilizado para crear páginas web?",
+        "code": "",
+        "answers": [
+          "CSS",
+          "JavaScript",
+          "HTML",
+          "PHP"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 32,
+        "level": "Fácil",
+        "question": "¿Qué significa HTML?",
+        "code": "",
+        "answers": [
+          "HyperText Markup Language",
+          "High Technology Modern Language",
+          "Hyper Transfer Markup Language",
+          "Hyperlink and Text Markup Language"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 33,
+        "level": "Fácil",
+        "question": "¿Cuál es el elemento principal utilizado para crear encabezados en HTML?",
+        "code": "",
+        "answers": [
+          "<header>",
+          "<h1>",
+          "<title>",
+          "<head>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 34,
+        "level": "Fácil",
+        "question": "¿Cuál es el elemento utilizado para crear una lista desordenada en HTML?",
+        "code": "",
+        "answers": [
+          "<ol>",
+          "<li>",
+          "<ul>",
+          "<dl>"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 35,
+        "level": "Fácil",
+        "question": "¿Cuál es el atributo utilizado en el elemento 'a' para especificar la URL de destino de un enlace?",
+        "code": "",
+        "answers": [
+          "href",
+          "src",
+          "link",
+          "url"
+        ],
+        "correctAnswer": 0
+      }
+  ]

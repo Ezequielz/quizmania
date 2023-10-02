@@ -1,0 +1,606 @@
+[
+  {
+    "id": 1,
+    "level": "Fácil",
+    "question": "¿Cuál es la forma correcta de declarar un comentario de una línea en JavaScript?",
+    "code": "",
+    "answers": ["// Este es un comentario de una línea", "/* Este es un comentario de una línea */", "<!-- Este es un comentario de una línea -->", "// Este es un comentario de varias líneas"],
+    "correctAnswer": 0,
+    "help": "Recuerda que un comentario de una línea en JavaScript se inicia con //. ",
+    "explanation": "La forma correcta de declarar un comentario de una línea en JavaScript es utilizando // al inicio de la línea.",
+    "codeExample": "// Este es un comentario de una línea."
+  },
+  {
+    "id": 2,
+    "level": "Medio",
+    "question": "¿Cuál es el resultado de la siguiente expresión en JavaScript?",
+    "code": "typeof NaN",
+    "answers": ["NaN", "number", "undefined", "string"],
+    "correctAnswer": 1,
+    "help": "La función typeof se utiliza para determinar el tipo de datos de una variable o valor.",
+    "explanation": "El resultado de la expresión typeof NaN será 'number'. Aunque NaN significa 'Not-a-Number' (No es un número), en JavaScript se considera un valor especial del tipo de datos 'number'. La función typeof se utiliza para determinar el tipo de datos de una variable o valor, y en este caso, NaN se clasifica como 'number'. Es importante tener en cuenta que NaN es considerado un valor especial dentro del tipo 'number' y no se puede comparar directamente con otros valores numéricos.",
+    "codeExample": ""
+  },
+  {
+    "id": 3,
+    "level": "Fácil",
+    "question": "¿Cuál es la forma correcta de declarar un comentario de una línea en JavaScript?",
+    "code": "",
+    "answers": ["// Este es un comentario de una línea", "/* Este es un comentario de una línea */", "<!-- Este es un comentario de una línea -->", "// Este es un comentario de varias líneas"],
+    "correctAnswer": 0,
+    "help": "Recuerda que un comentario de una línea en JavaScript se inicia con //. ",
+    "explanation": "La forma correcta de declarar un comentario de una línea en JavaScript es utilizando // al inicio de la línea.",
+    "codeExample": "// Este es un comentario de una línea."
+  },
+  {
+    "id": 4,
+    "level": "Medio",
+    "question": "¿Cuál es el resultado de la siguiente expresión en JavaScript?",
+    "code": "typeof NaN",
+    "answers": ["NaN", "number", "undefined", "string"],
+    "correctAnswer": 1,
+    "help": "La función typeof se utiliza para determinar el tipo de datos de una variable o valor.",
+    "explanation": "El resultado de la expresión typeof NaN será 'number'. Aunque NaN significa 'Not-a-Number' (No es un número), en JavaScript se considera un valor especial del tipo de datos 'number'. La función typeof se utiliza para determinar el tipo de datos de una variable o valor, y en este caso, NaN se clasifica como 'number'. Es importante tener en cuenta que NaN es considerado un valor especial dentro del tipo 'number' y no se puede comparar directamente con otros valores numéricos.",
+    "codeExample": ""
+  },
+  {
+    "id": 5,
+    "level": "Fácil",
+    "question": "¿Cuál es la forma correcta de declarar un comentario de una línea en JavaScript?",
+    "code": "// Este es un comentario de una línea",
+    "answers": [
+      "// Este es un comentario de una línea",
+      "/* Este es un comentario de una línea */",
+      "<!-- Este es un comentario de una línea -->",
+      "// Este es un comentario de varias líneas"
+    ],
+    "correctAnswer": 0,
+    "help": "Recuerda que un comentario de una línea en JavaScript se inicia con //.",
+    "explanation": "La forma correcta de declarar un comentario de una línea en JavaScript es utilizando // al inicio de la línea.",
+    "codeExample": "// Este es un comentario de una línea."
+  },
+  {
+    "id": 6,
+    "level": "Fácil",
+    "question": "¿Qué palabra clave se utiliza para declarar una variable en JavaScript?",
+    "code": "var miVariable;",
+    "answers": [
+      "var",
+      "let",
+      "const",
+      "variable"
+    ],
+    "correctAnswer": 0,
+    "help": "En JavaScript, se utilizan palabras clave específicas para declarar variables.",
+    "explanation": "La palabra clave utilizada para declarar una variable en JavaScript es 'var'.",
+    "codeExample": "var miVariable;"
+  },
+  {
+    "id": 7,
+    "level": "Fácil",
+    "question": "¿Cómo se llama el proceso de ejecutar una función dentro de sí misma en JavaScript?",
+    "code": "function factorial(n) {\n  if (n === 0) {\n    return 1;\n  } else {\n    return n * factorial(n - 1);\n  }\n}",
+    "answers": [
+      "Iteración",
+      "Recursión",
+      "Ejecución",
+      "Condición"
+    ],
+    "correctAnswer": 1,
+    "help": "Este proceso se utiliza para resolver problemas de manera recursiva.",
+    "explanation": "El proceso de ejecutar una función dentro de sí misma en JavaScript se llama 'recursión'.",
+    "codeExample": "function factorial(n) {\n  if (n === 0) {\n    return 1;\n  } else {\n    return n * factorial(n - 1);\n  }\n}"
+  },
+  {
+    "id": 8,
+    "level": "Fácil",
+    "question": "¿Qué tipo de estructura de control se utiliza para repetir un bloque de código en JavaScript?",
+    "code": "for (var i = 0; i < 5; i++) {\n  console.log('Iteración ' + i);\n}",
+    "answers": [
+      "if",
+      "for",
+      "switch",
+      "function"
+    ],
+    "correctAnswer": 1,
+    "help": "Esta estructura de control se utiliza para realizar bucles.",
+    "explanation": "La estructura de control utilizada para repetir un bloque de código en JavaScript es 'for'.",
+    "codeExample": "for (var i = 0; i < 5; i++) {\n  console.log('Iteración ' + i);\n}"
+  },
+  {
+    "id": 9,
+    "level": "Fácil",
+    "question": "¿Cuál es el operador utilizado para concatenar cadenas de texto en JavaScript?",
+    "code": "var nombre = 'Juan';\nvar saludo = 'Hola, ' + nombre + '!';",
+    "answers": [
+      "+",
+      "-",
+      "*",
+      "/"
+    ],
+    "correctAnswer": 0,
+    "help": "Este operador se utiliza para combinar cadenas de texto.",
+    "explanation": "El operador utilizado para concatenar cadenas de texto en JavaScript es '+'.",
+    "codeExample": "var nombre = 'Juan';\nvar saludo = 'Hola, ' + nombre + '!';"
+  },
+  {
+    "id": 10,
+    "level": "Fácil",
+    "question": "¿Cuál es la forma correcta de declarar una variable en JavaScript utilizando 'let'?",
+    "code": "let miVariable;",
+    "answers": [
+      "variable miVariable;",
+      "declare miVariable;",
+      "var miVariable;",
+      "let miVariable;"
+    ],
+    "correctAnswer": 3,
+    "help": "Recuerda que 'let' se utiliza para declarar variables en JavaScript.",
+    "explanation": "La forma correcta de declarar una variable en JavaScript utilizando 'let' es 'let miVariable;'.",
+    "codeExample": "let miVariable;"
+  },
+  {
+    "id": 11,
+    "level": "Fácil",
+    "question": "¿Cuál es el operador de igualdad estricta en JavaScript?",
+    "code": "",
+    "answers": [
+      "==",
+      "===",
+      "=",
+      "!="
+    ],
+    "correctAnswer": 1,
+    "help": "La igualdad estricta compara tanto el valor como el tipo de datos.",
+    "explanation": "El operador de igualdad estricta en JavaScript es '==='.",
+    "codeExample": ""
+  },
+  {
+    "id": 12,
+    "level": "Fácil",
+    "question": "¿Cuál es la función utilizada para imprimir en la consola en JavaScript?",
+    "code": "",
+    "answers": [
+      "console.log()",
+      "print()",
+      "log()",
+      "write()"
+    ],
+    "correctAnswer": 0,
+    "help": "Esta función se utiliza para depurar y mostrar mensajes en la consola.",
+    "explanation": "La función utilizada para imprimir en la consola en JavaScript es 'console.log()'.",
+    "codeExample": ""
+  },
+  {
+    "id": 13,
+    "level": "Fácil",
+    "question": "¿Cuál es el resultado de la expresión '5 + '5' en JavaScript?",
+    "code": "",
+    "answers": [
+      "10",
+      "55",
+      "Error",
+      "505"
+    ],
+    "correctAnswer": 1,
+    "help": "JavaScript realiza concatenación de cadenas cuando se suma una cadena y un número.",
+    "explanation": "El resultado de la expresión '5 + '5'' en JavaScript es '55' (una cadena concatenada).",
+    "codeExample": ""
+  },
+  {
+    "id": 14,
+    "level": "Fácil",
+    "question": "¿Cuál es el operador utilizado para la asignación de valores en JavaScript?",
+    "code": "",
+    "answers": [
+      "===",
+      "=",
+      "==",
+      ":="
+    ],
+    "correctAnswer": 1,
+    "help": "Este operador se utiliza para asignar valores a variables.",
+    "explanation": "El operador utilizado para la asignación de valores en JavaScript es '='.",
+    "codeExample": ""
+  },
+  {
+    "id": 15,
+    "level": "Medio",
+    "question": "¿Cuál es el propósito del método 'map' en JavaScript?",
+    "code": "const numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map((num) => num * 2);",
+    "answers": [
+      "Modificar directamente un array existente",
+      "Crear un nuevo array con los resultados de aplicar una función a cada elemento del array original",
+      "Eliminar elementos duplicados de un array",
+      "Ordenar un array alfabéticamente"
+    ],
+    "correctAnswer": 1,
+    "help": "El método 'map' se utiliza para realizar una operación en cada elemento de un array.",
+    "explanation": "El propósito del método 'map' en JavaScript es crear un nuevo array con los resultados de aplicar una función a cada elemento del array original.",
+    "codeExample": "const numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map((num) => num * 2);"
+  },
+  {
+    "id": 16,
+    "level": "Medio",
+    "question": "¿Qué es una función de flecha ('arrow function') en JavaScript?",
+    "code": "() => { /* Código de la función */ }",
+    "answers": [
+      "Una función que se representa con una flecha (=>) y no tiene contexto propio ('this')",
+      "Una función que solo se utiliza en operaciones de aritmética",
+      "Una función que utiliza la palabra clave 'arrow' en su declaración",
+      "Una función que no acepta argumentos"
+    ],
+    "correctAnswer": 0,
+    "help": "Las funciones de flecha son una característica importante de ECMAScript 6 (ES6).",
+    "explanation": "Una función de flecha en JavaScript es una función que se representa con una flecha (=>) y no tiene contexto propio ('this').",
+    "codeExample": "() => { /* Código de la función */ }"
+  },
+  {
+    "id": 17,
+    "level": "Medio",
+    "question": "¿Cuál es el propósito del método 'filter' en JavaScript?",
+    "code": "const numbers = [1, 2, 3, 4, 5];\nconst evenNumbers = numbers.filter((num) => num % 2 === 0);",
+    "answers": [
+      "Modificar directamente un array existente",
+      "Crear un nuevo array con los elementos que cumplan cierta condición de una función",
+      "Eliminar todos los elementos de un array",
+      "Ordenar un array numéricamente"
+    ],
+    "correctAnswer": 1,
+    "help": "El método 'filter' se utiliza para seleccionar elementos específicos de un array.",
+    "explanation": "El propósito del método 'filter' en JavaScript es crear un nuevo array con los elementos que cumplan cierta condición de una función.",
+    "codeExample": "const numbers = [1, 2, 3, 4, 5];\nconst evenNumbers = numbers.filter((num) => num % 2 === 0);"
+  },
+  {
+    "id": 18,
+    "level": "Medio",
+    "question": "¿Qué es el concepto de 'cierre' ('closure') en JavaScript?",
+    "code": "function outer() {\n  const x = 10;\n  function inner() {\n    console.log(x);\n  }\n  return inner;\n}\nconst closure = outer();\nclosure();",
+    "answers": [
+      "El proceso de cerrar una ventana del navegador",
+      "Un error común en el código JavaScript",
+      "La capacidad de una función de acceder a su propio contexto léxico incluso después de que haya finalizado su ejecución",
+      "El resultado de una operación de comparación"
+    ],
+    "correctAnswer": 2,
+    "help": "Los 'cierres' son un concepto fundamental en JavaScript.",
+    "explanation": "El concepto de 'cierre' ('closure') en JavaScript se refiere a la capacidad de una función de acceder a su propio contexto léxico incluso después de que haya finalizado su ejecución.",
+    "codeExample": "function outer() {\n  const x = 10;\n  function inner() {\n    console.log(x);\n  }\n  return inner;\n}\nconst closure = outer();\nclosure();"
+  },
+  {
+    "id": 19,
+    "level": "Medio",
+    "question": "¿Cuál es el operador de igualdad en JavaScript que compara el valor pero no el tipo de datos?",
+    "code": "",
+    "answers": [
+      "==",
+      "===",
+      "=",
+      ":="
+    ],
+    "correctAnswer": 0,
+    "help": "Este operador se utiliza para comparar valores sin tener en cuenta el tipo de datos.",
+    "explanation": "El operador de igualdad en JavaScript que compara el valor pero no el tipo de datos es '=='.",
+    "codeExample": ""
+  },
+  {
+    "id": 20,
+    "level": "Medio",
+    "question": "¿Cuál es el propósito del método 'map' en JavaScript?",
+    "code": "const numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map((num) => num * 2);",
+    "answers": [
+      "Modificar directamente un array existente",
+      "Crear un nuevo array con los resultados de aplicar una función a cada elemento del array original",
+      "Eliminar elementos duplicados de un array",
+      "Ordenar un array alfabéticamente"
+    ],
+    "correctAnswer": 1,
+    "help": "El método 'map' se utiliza para realizar una operación en cada elemento de un array.",
+    "explanation": "El propósito del método 'map' en JavaScript es crear un nuevo array con los resultados de aplicar una función a cada elemento del array original.",
+    "codeExample": "const numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map((num) => num * 2);"
+  },
+  {
+    "id": 21,
+    "level": "Medio",
+    "question": "¿Qué es una función de flecha ('arrow function') en JavaScript?",
+    "code": "() => { /* Código de la función */ }",
+    "answers": [
+      "Una función que se representa con una flecha (=>) y no tiene contexto propio ('this')",
+      "Una función que solo se utiliza en operaciones de aritmética",
+      "Una función que utiliza la palabra clave 'arrow' en su declaración",
+      "Una función que no acepta argumentos"
+    ],
+    "correctAnswer": 0,
+    "help": "Las funciones de flecha son una característica importante de ECMAScript 6 (ES6).",
+    "explanation": "Una función de flecha en JavaScript es una función que se representa con una flecha (=>) y no tiene contexto propio ('this').",
+    "codeExample": "() => { /* Código de la función */ }"
+  },
+  {
+    "id": 22,
+    "level": "Medio",
+    "question": "¿Cuál es el propósito del método 'filter' en JavaScript?",
+    "code": "const numbers = [1, 2, 3, 4, 5];\nconst evenNumbers = numbers.filter((num) => num % 2 === 0);",
+    "answers": [
+      "Modificar directamente un array existente",
+      "Crear un nuevo array con los elementos que cumplan cierta condición de una función",
+      "Eliminar todos los elementos de un array",
+      "Ordenar un array numéricamente"
+    ],
+    "correctAnswer": 1,
+    "help": "El método 'filter' se utiliza para seleccionar elementos específicos de un array.",
+    "explanation": "El propósito del método 'filter' en JavaScript es crear un nuevo array con los elementos que cumplan cierta condición de una función.",
+    "codeExample": "const numbers = [1, 2, 3, 4, 5];\nconst evenNumbers = numbers.filter((num) => num % 2 === 0);"
+  },
+  {
+    "id": 23,
+    "level": "Medio",
+    "question": "¿Qué es el concepto de 'cierre' ('closure') en JavaScript?",
+    "code": "function outer() {\n  const x = 10;\n  function inner() {\n    console.log(x);\n  }\n  return inner;\n}\nconst closure = outer();\nclosure();",
+    "answers": [
+      "El proceso de cerrar una ventana del navegador",
+      "Un error común en el código JavaScript",
+      "La capacidad de una función de acceder a su propio contexto léxico incluso después de que haya finalizado su ejecución",
+      "El resultado de una operación de comparación"
+    ],
+    "correctAnswer": 2,
+    "help": "Los 'cierres' son un concepto fundamental en JavaScript.",
+    "explanation": "El concepto de 'cierre' ('closure') en JavaScript se refiere a la capacidad de una función de acceder a su propio contexto léxico incluso después de que haya finalizado su ejecución.",
+    "codeExample": "function outer() {\n  const x = 10;\n  function inner() {\n    console.log(x);\n  }\n  return inner;\n}\nconst closure = outer();\nclosure();"
+  },
+  {
+    "id": 24,
+    "level": "Difícil",
+    "question": "¿Cuál es la diferencia principal entre 'let', 'const' y 'var' en JavaScript?",
+    "code": "",
+    "answers": [
+      "No hay diferencia, son intercambiables",
+      "'let' y 'const' tienen alcance de bloque, mientras que 'var' tiene alcance de función",
+      "'var' es más moderno y preferible en todos los casos",
+      "'const' solo se utiliza para declarar constantes numéricas"
+    ],
+    "correctAnswer": 1,
+    "help": "Las declaraciones de variables en JavaScript tienen diferentes alcances.",
+    "explanation": "La diferencia principal entre 'let', 'const' y 'var' en JavaScript es que 'let' y 'const' tienen alcance de bloque, mientras que 'var' tiene alcance de función.",
+    "codeExample": ""
+  },
+  {
+    "id": 25,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado del siguiente código en JavaScript?",
+    "code": "function example() {\n  return 42;\n}\nconst result = example();\nconsole.log(result);",
+    "answers": [
+      "Error de sintaxis",
+      "42",
+      "undefined",
+      "NaN"
+    ],
+    "correctAnswer": 1,
+    "help": "El código contiene una función y una variable.",
+    "explanation": "El resultado del código es '42' porque la función 'example' devuelve ese valor y se almacena en la variable 'result'.",
+    "codeExample": "function example() {\n  return 42;\n}\nconst result = example();\nconsole.log(result);"
+  },
+  {
+    "id": 26,
+    "level": "Difícil",
+    "question": "¿Cuál es el propósito del método 'Promise' en JavaScript?",
+    "code": "",
+    "answers": [
+      "Gestionar errores de tiempo de ejecución",
+      "Manejar asincronía y realizar operaciones asíncronas de manera más ordenada",
+      "Realizar validaciones de entrada de datos",
+      "Crear animaciones y efectos visuales"
+    ],
+    "correctAnswer": 1,
+    "help": "Las promesas se utilizan ampliamente en programación asincrónica.",
+    "explanation": "El propósito del método 'Promise' en JavaScript es manejar asincronía y realizar operaciones asíncronas de manera más ordenada.",
+    "codeExample": ""
+  },
+  {
+    "id": 27,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado del siguiente código en JavaScript?",
+    "code": "const x = 10;\nfunction foo() {\n  console.log(x);\n  const x = 20;\n}\nfoo();",
+    "answers": [
+      "10",
+      "20",
+      "Error de tiempo de ejecución",
+      "Undefined"
+    ],
+    "correctAnswer": 2,
+    "help": "El código contiene una función y una variable con el mismo nombre.",
+    "explanation": "El resultado del código es un error de tiempo de ejecución (ReferenceError) porque hay una variable 'x' declarada dentro de la función 'foo' que sombrea a la variable 'x' externa.",
+    "codeExample": "const x = 10;\nfunction foo() {\n  console.log(x);\n  const x = 20;\n}\nfoo();"
+  },
+  {
+    "id": 28,
+    "level": "Difícil",
+    "question": "¿Cuál es el propósito del método 'apply' en JavaScript?",
+    "code": "",
+    "answers": [
+      "Aplicar un estilo CSS a un elemento HTML",
+      "Aplicar una función a un objeto con argumentos como un array",
+      "Aplicar un evento de clic a un elemento de la página",
+      "Aplicar una transformación 3D a un elemento en el espacio"
+    ],
+    "correctAnswer": 1,
+    "help": "El método 'apply' se utiliza con funciones en JavaScript.",
+    "explanation": "El propósito del método 'apply' en JavaScript es aplicar una función a un objeto con argumentos como un array.",
+    "codeExample": ""
+  },
+  {
+    "id": 29,
+    "level": "Difícil",
+    "question": "¿Cuál es la salida del siguiente código en JavaScript?",
+    "code": "function delayedLog() {\n  setTimeout(function () {\n    console.log('Mensaje retrasado');\n  }, 2000);\n  console.log('Mensaje inmediato');\n}\ndelayedLog();",
+    "answers": [
+      "'Mensaje inmediato' seguido de 'Mensaje retrasado'",
+      "'Mensaje retrasado' seguido de 'Mensaje inmediato'",
+      "Solo 'Mensaje inmediato'",
+      "Solo 'Mensaje retrasado'"
+    ],
+    "correctAnswer": 0,
+    "help": "El código contiene una función y un temporizador.",
+    "explanation": "La salida del código será 'Mensaje inmediato' seguido de 'Mensaje retrasado' debido al uso de 'setTimeout', que ejecuta la función de retraso después de 2000 milisegundos.",
+    "codeExample": "function delayedLog() {\n  setTimeout(function () {\n    console.log('Mensaje retrasado');\n  }, 2000);\n  console.log('Mensaje inmediato');\n}\ndelayedLog();"
+  },
+  {
+    "id": 30,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado del siguiente código en JavaScript?",
+    "code": "const numbers = [1, 2, 3, 4, 5];\nconst sum = numbers.reduce((acc, num) => {\n  return acc + num;\n}, 0);\nconsole.log(sum);",
+    "answers": [
+      "15",
+      "10",
+      "Error de sintaxis",
+      "NaN"
+    ],
+    "correctAnswer": 0,
+    "help": "El código utiliza el método 'reduce' para realizar una operación acumulativa.",
+    "explanation": "El resultado del código es '15' porque se utiliza el método 'reduce' para sumar todos los elementos del array 'numbers'.",
+    "codeExample": "const numbers = [1, 2, 3, 4, 5];\nconst sum = numbers.reduce((acc, num) => {\n  return acc + num;\n}, 0);\nconsole.log(sum);"
+  },
+  {
+    "id": 31,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado del siguiente código en JavaScript?",
+    "code": "const a = { key: 'value' };\nconst b = { key: 'value' };\nconsole.log(a === b);",
+    "answers": [
+      "true",
+      "false",
+      "Error de sintaxis",
+      "Undefined"
+    ],
+    "correctAnswer": 1,
+    "help": "El código compara dos objetos.",
+    "explanation": "El resultado del código es 'false' porque aunque los objetos 'a' y 'b' tienen propiedades con los mismos valores, no son la misma instancia de objeto.",
+    "codeExample": "const a = { key: 'value' };\nconst b = { key: 'value' };\nconsole.log(a === b);"
+  },
+  {
+    "id": 32,
+    "level": "Difícil",
+    "question": "¿Cuál es el propósito del método 'bind' en JavaScript?",
+    "code": "",
+    "answers": [
+      "Unir dos o más objetos en uno solo",
+      "Establecer un valor predeterminado para un parámetro de función",
+      "Vincular una función a un evento DOM",
+      "Unir múltiples archivos JavaScript en uno solo"
+    ],
+    "correctAnswer": 1,
+    "help": "El método 'bind' se utiliza comúnmente en funciones.",
+    "explanation": "El propósito del método 'bind' en JavaScript es establecer un valor predeterminado para un parámetro de función y crear una nueva función con ese valor fijo.",
+    "codeExample": ""
+  },
+  {
+    "id": 33,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado del siguiente código en JavaScript?",
+    "code": "const person = { name: 'Juan', age: 30 };\nconst { name, age } = person;\nconsole.log(name, age);",
+    "answers": [
+      "Error de sintaxis",
+      "undefined undefined",
+      "'Juan' 30",
+      "null null"
+    ],
+    "correctAnswer": 2,
+    "help": "El código utiliza desestructuración de objetos.",
+    "explanation": "El resultado del código es ''Juan' 30' porque se utiliza la desestructuración de objetos para extraer las propiedades 'name' y 'age' del objeto 'person'.",
+    "codeExample": "const person = { name: 'Juan', age: 30 };\nconst { name, age } = person;\nconsole.log(name, age);"
+  },
+  {
+    "id": 34,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado del siguiente código en JavaScript?",
+    "code": "const numbers = [1, 2, 3, 4, 5];\nconst evenNumbers = numbers.filter((num) => num % 2 === 0);\nconsole.log(evenNumbers);",
+    "answers": [
+      "[2, 4]",
+      "[1, 3, 5]",
+      "Error de sintaxis",
+      "undefined"
+    ],
+    "correctAnswer": 0,
+    "help": "El código utiliza el método 'filter' en un array.",
+    "explanation": "El resultado del código es '[2, 4]' porque el método 'filter' se utiliza para crear un nuevo array con los elementos que cumplan la condición de ser números pares.",
+    "codeExample": "const numbers = [1, 2, 3, 4, 5];\nconst evenNumbers = numbers.filter((num) => num % 2 === 0);\nconsole.log(evenNumbers);"
+  },
+  {
+    "id": 35,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado del siguiente código en JavaScript?",
+    "code": "function outer() {\n  const x = 10;\n  function inner() {\n    console.log(x);\n  }\n  return inner;\n}\nconst closure = outer();\nclosure();",
+    "answers": [
+      "10",
+      "Error de tiempo de ejecución",
+      "Undefined",
+      "20"
+    ],
+    "correctAnswer": 1,
+    "help": "El código utiliza funciones anidadas y cierres ('closures').",
+    "explanation": "El resultado del código es un error de tiempo de ejecución (ReferenceError) porque la función 'inner' intenta acceder a 'x', que está fuera de su alcance.",
+    "codeExample": "function outer() {\n  const x = 10;\n  function inner() {\n    console.log(x);\n  }\n  return inner;\n}\nconst closure = outer();\nclosure();"
+  },
+  {
+    "id": 36,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado del siguiente código en JavaScript?",
+    "code": "const a = 5;\nfunction foo() {\n  console.log(a);\n}\nfunction bar() {\n  const a = 10;\n  foo();\n}\nbar();",
+    "answers": [
+      "5",
+      "10",
+      "Error de tiempo de ejecución",
+      "Undefined"
+    ],
+    "correctAnswer": 0,
+    "help": "El código contiene funciones anidadas y variables con el mismo nombre.",
+    "explanation": "El resultado del código es '5' porque la función 'foo' accede a la variable 'a' global, no a la variable 'a' local en 'bar'.",
+    "codeExample": "const a = 5;\nfunction foo() {\n  console.log(a);\n}\nfunction bar() {\n  const a = 10;\n  foo();\n}\nbar();"
+  },
+  {
+    "id": 37,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado del siguiente código en JavaScript?",
+    "code": "const numbers = [1, 2, 3, 4, 5];\nconst sum = numbers.reduce((acc, num) => acc + num, 0);\nconsole.log(sum);",
+    "answers": [
+      "10",
+      "15",
+      "Error de sintaxis",
+      "undefined"
+    ],
+    "correctAnswer": 0,
+    "help": "El código utiliza el método 'reduce' para realizar una operación acumulativa.",
+    "explanation": "El resultado del código es '10' porque el método 'reduce' se utiliza para sumar todos los elementos del array 'numbers'.",
+    "codeExample": "const numbers = [1, 2, 3, 4, 5];\nconst sum = numbers.reduce((acc, num) => acc + num, 0);\nconsole.log(sum);"
+  },
+  {
+    "id": 38,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado del siguiente código en JavaScript?",
+    "code": "const a = [1, 2, 3];\nconst b = a;\nb.push(4);\nconsole.log(a, b);",
+    "answers": [
+      "[1, 2, 3], [1, 2, 3]",
+      "[1, 2, 3, 4], [1, 2, 3, 4]",
+      "[1, 2, 3], [1, 2, 3, 4]",
+      "Error de tiempo de ejecución"
+    ],
+    "correctAnswer": 2,
+    "help": "El código crea dos variables que hacen referencia al mismo array.",
+    "explanation": "El resultado del código es '[1, 2, 3], [1, 2, 3, 4]' porque ambas variables 'a' y 'b' hacen referencia al mismo array, por lo que cualquier cambio en el array se reflejará en ambas.",
+    "codeExample": "const a = [1, 2, 3];\nconst b = a;\nb.push(4);\nconsole.log(a, b);"
+  },
+  {
+    "id": 39,
+    "level": "Difícil",
+    "question": "¿Cuál es el resultado del siguiente código en JavaScript?",
+    "code": "const x = 10;\nfunction foo() {\n  console.log(x);\n}\nfoo();",
+    "answers": [
+      "10",
+      "Error de tiempo de ejecución",
+      "Undefined",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "help": "El código utiliza una variable global.",
+    "explanation": "El resultado del código es '10' porque la función 'foo' accede a la variable global 'x' y la imprime.",
+    "codeExample": "const x = 10;\nfunction foo() {\n  console.log(x);\n}\nfoo();"
+  }
+]

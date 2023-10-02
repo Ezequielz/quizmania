@@ -1,0 +1,1 @@
+export { getBGColor } from './getBGColor'

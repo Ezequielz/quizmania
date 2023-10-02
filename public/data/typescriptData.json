@@ -1,0 +1,815 @@
+[
+  {
+    "id": 1,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'genéricos' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Un tipo de dato específico en TypeScript que se utiliza para representar una lista de valores",
+      "Una forma de crear funciones que pueden aceptar y devolver diferentes tipos de datos",
+      "Una característica de TypeScript que permite definir estructuras de datos complejas",
+      "Una forma de restringir los tipos de datos que se pueden asignar a una variable en TypeScript"
+    ],
+    "correctAnswer": 3
+  },  
+  {
+    "id": 2,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes palabras clave se utiliza en TypeScript para definir una clase?",
+    "code": null,
+    "answers": [
+      "function",
+      "def",
+      "class",
+      "interface"
+    ],
+    "correctAnswer": 2
+  },  
+  {
+    "id": 3,
+    "level": "Fácil",
+    "question": "¿Qué palabra clave se utiliza en TypeScript para declarar una variable con un tipo específico que no cambia?",
+    "code": null,
+    "answers": [
+      "let",
+      "var",
+      "const",
+      "type"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 4,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'inferencia de tipos' en TypeScript?",
+    "code": null,
+    "answers": [
+      "La capacidad de asignar tipos a variables y expresiones en tiempo de ejecución",
+      "La verificación de tipos en tiempo de compilación",
+      "La capacidad de deducir automáticamente el tipo de una variable en base a su valor",
+      "La ausencia de tipos en TypeScript"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 5,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el uso de interfaces en TypeScript?",
+    "code": null,
+    "answers": [
+      "Las interfaces se utilizan para definir una implementación concreta de una clase",
+      "Las interfaces se utilizan para crear objetos en TypeScript",
+      "Las interfaces se utilizan para definir la estructura de un objeto y los tipos de sus propiedades",
+      "Las interfaces se utilizan para declarar variables en TypeScript"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 6,
+    "level": "Fácil",
+    "question": "¿Cuál de las siguientes palabras clave se utiliza en TypeScript para definir una función?",
+    "code": null,
+    "answers": [
+      "function",
+      "def",
+      "class",
+      "interface"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "level": "Fácil",
+    "question": "¿Cuál es la forma correcta de declarar un arreglo de números en TypeScript?",
+    "code": null,
+    "answers": [
+      "let numbers: Array<number>",
+      "let numbers: number[]",
+      "let numbers: Array<string>",
+      "let numbers: string[]"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 8,
+    "level": "Fácil",
+    "question": "¿Qué palabra clave se utiliza en TypeScript para declarar una variable con un tipo específico que no cambia?",
+    "code": null,
+    "answers": [
+      "let",
+      "var",
+      "const",
+      "type"
+    ],
+    "correctAnswer": 2,
+    "help": "En TypeScript, esta palabra clave se utiliza para declarar constantes.",
+    "explanation": "La palabra clave utilizada en TypeScript para declarar una variable con un tipo específico que no cambia es 'const'.",
+    "codeExample": ""
+  },
+  {
+    "id": 9,
+    "level": "Fácil",
+    "question": "¿Qué tipo de dato se utiliza para representar números enteros en TypeScript?",
+    "code": null,
+    "answers": [
+      "number",
+      "integer",
+      "int",
+      "float"
+    ],
+    "correctAnswer": 0,
+    "help": "En TypeScript, este tipo de dato se utiliza para representar números.",
+    "explanation": "El tipo de dato utilizado en TypeScript para representar números enteros y decimales es 'number'.",
+    "codeExample": ""
+  },
+  {
+    "id": 10,
+    "level": "Fácil",
+    "question": "¿Qué palabra clave se utiliza en TypeScript para definir una función?",
+    "code": null,
+    "answers": [
+      "function",
+      "def",
+      "fn",
+      "func"
+    ],
+    "correctAnswer": 0,
+    "help": "Esta palabra clave se utiliza para declarar funciones en TypeScript.",
+    "explanation": "La palabra clave utilizada en TypeScript para definir una función es 'function'.",
+    "codeExample": ""
+  },
+  {
+    "id": 11,
+    "level": "Fácil",
+    "question": "¿Qué palabra clave se utiliza en TypeScript para declarar una variable que podría ser de varios tipos?",
+    "code": null,
+    "answers": [
+      "let",
+      "var",
+      "const",
+      "union"
+    ],
+    "correctAnswer": 3,
+    "help": "En TypeScript, esta palabra clave se utiliza para combinar múltiples tipos en una variable.",
+    "explanation": "La palabra clave utilizada en TypeScript para declarar una variable que podría ser de varios tipos es 'union'.",
+    "codeExample": ""
+  },
+  {
+    "id": 12,
+    "level": "Fácil",
+    "question": "¿Cuál es el propósito de la palabra clave 'interface' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Definir una clase",
+      "Declarar una función",
+      "Especificar una estructura de objeto",
+      "Crear una constante"
+    ],
+    "correctAnswer": 2,
+    "help": "Las interfaces son una característica clave de TypeScript para definir la estructura de objetos.",
+    "explanation": "La palabra clave 'interface' en TypeScript se utiliza para especificar la estructura de un objeto, es decir, para definir qué propiedades y métodos debe tener un objeto.",
+    "codeExample": ""
+  },
+  {
+    "id": 13,
+    "level": "Medio",
+    "question": "¿Cuál es el concepto principal detrás de la inferencia de tipos en TypeScript?",
+    "code": null,
+    "answers": [
+      "Definir tipos de manera explícita en todas las variables",
+      "Permitir que el compilador deduzca automáticamente los tipos",
+      "No es posible utilizar inferencia de tipos en TypeScript",
+      "Simplificar la sintaxis de las funciones"
+    ],
+    "correctAnswer": 1,
+    "help": "La inferencia de tipos es una característica clave de TypeScript.",
+    "explanation": "El concepto principal detrás de la inferencia de tipos en TypeScript es permitir que el compilador deduzca automáticamente los tipos de las variables en función de su valor y contexto.",
+    "codeExample": ""
+  },
+  {
+    "id": 14,
+    "level": "Medio",
+    "question": "En TypeScript, ¿qué operador se utiliza para definir un tipo que puede ser de dos tipos diferentes?",
+    "code": null,
+    "answers": [
+      "Operador '?:'",
+      "Operador '|'",
+      "Operador '&'",
+      "Operador '!'"
+    ],
+    "correctAnswer": 1,
+    "help": "Este operador se utiliza para combinar tipos en TypeScript.",
+    "explanation": "En TypeScript, el operador '|' se utiliza para definir un tipo que puede ser de dos tipos diferentes. Esto se conoce como unión de tipos.",
+    "codeExample": ""
+  },
+  {
+    "id": 15,
+    "level": "Medio",
+    "question": "¿Cuál es el propósito de la palabra clave 'implements' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Declarar una variable",
+      "Definir una interfaz",
+      "Especificar que una clase implementa una interfaz",
+      "Crear un bucle for"
+    ],
+    "correctAnswer": 2,
+    "help": "La palabra clave 'implements' se relaciona con las clases y las interfaces en TypeScript.",
+    "explanation": "La palabra clave 'implements' en TypeScript se utiliza para especificar que una clase implementa una interfaz. Esto significa que la clase debe proporcionar implementaciones para todos los miembros de la interfaz.",
+    "codeExample": ""
+  },
+  {
+    "id": 16,
+    "level": "Medio",
+    "question": "En TypeScript, ¿cómo se declara un tipo que representa un objeto con propiedades específicas?",
+    "code": null,
+    "answers": [
+      "Usando una interfaz",
+      "Usando una clase",
+      "Usando un array",
+      "No es posible declarar tipos de objetos en TypeScript"
+    ],
+    "correctAnswer": 0,
+    "help": "Esta es una forma común de declarar tipos de objetos en TypeScript.",
+    "explanation": "En TypeScript, puedes declarar un tipo que representa un objeto con propiedades específicas utilizando una interfaz. La interfaz define la estructura esperada del objeto.",
+    "codeExample": ""
+  },
+  {
+    "id": 17,
+    "level": "Medio",
+    "question": "¿Qué método se utiliza para definir un constructor en una clase de TypeScript?",
+    "code": null,
+    "answers": [
+      "constructor()",
+      "init()",
+      "create()",
+      "new()"
+    ],
+    "correctAnswer": 0,
+    "help": "El constructor es un método especial en TypeScript.",
+    "explanation": "Para definir un constructor en una clase de TypeScript, se utiliza el método 'constructor()'. Este método se llama cuando se crea una instancia de la clase.",
+    "codeExample": ""
+  },
+  {
+    "id": 18,
+    "level": "Medio",
+    "question": "¿Qué es un módulo en TypeScript y para qué se utiliza?",
+    "code": null,
+    "answers": [
+      "Una clase que encapsula datos y comportamiento",
+      "Una función que devuelve un valor",
+      "Un archivo que contiene código TypeScript separado y reutilizable",
+      "Una expresión regular para validación de cadenas"
+    ],
+    "correctAnswer": 2,
+    "help": "Los módulos son una característica importante de TypeScript.",
+    "explanation": "Un módulo en TypeScript es un archivo que contiene código TypeScript separado y reutilizable. Se utiliza para organizar y encapsular el código en partes lógicas y para permitir la reutilización en otros archivos.",
+    "codeExample": ""
+  },
+  {
+    "id": 19,
+    "level": "Medio",
+    "question": "¿Qué significa el término 'tipado estático' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Los tipos de variables pueden cambiar dinámicamente",
+      "Los tipos de variables se verifican en tiempo de ejecución",
+      "Los tipos de variables se determinan en tiempo de compilación y no pueden cambiar dinámicamente",
+      "No es necesario especificar tipos en TypeScript"
+    ],
+    "correctAnswer": 2,
+    "help": "El tipado estático es una característica clave de TypeScript.",
+    "explanation": "El término 'tipado estático' significa que los tipos de variables se determinan en tiempo de compilación y no pueden cambiar dinámicamente durante la ejecución del programa.",
+    "codeExample": ""
+  },
+  {
+    "id": 20,
+    "level": "Medio",
+    "question": "¿Cuál es la diferencia entre 'interface' y 'type' en TypeScript?",
+    "code": null,
+    "answers": [
+      "No hay diferencia, se pueden usar indistintamente",
+      "Las interfaces solo pueden definir la estructura de objetos, mientras que los tipos pueden representar cualquier tipo de dato",
+      "Los tipos solo pueden usarse en funciones, mientras que las interfaces pueden usarse en objetos",
+      "Las interfaces son más eficientes en términos de rendimiento"
+    ],
+    "correctAnswer": 1,
+    "help": "Interfaces y tipos son conceptos importantes en TypeScript.",
+    "explanation": "La diferencia principal entre 'interface' y 'type' en TypeScript es que las interfaces solo pueden definir la estructura de objetos, mientras que los tipos ('type') pueden representar cualquier tipo de dato, incluyendo objetos, uniones, intersecciones y más.",
+    "codeExample": ""
+  },
+  {
+    "id": 21,
+    "level": "Medio",
+    "question": "¿Cuál es la ventaja de usar TypeScript en lugar de JavaScript estándar?",
+    "code": null,
+    "answers": [
+      "TypeScript es más rápido en tiempo de ejecución",
+      "TypeScript tiene una sintaxis más simple",
+      "TypeScript proporciona verificación de tipos estática y herramientas de desarrollo más sólidas",
+      "No hay ventaja en usar TypeScript sobre JavaScript"
+    ],
+    "correctAnswer": 2,
+    "help": "TypeScript ofrece beneficios específicos sobre JavaScript estándar.",
+    "explanation": "Una de las principales ventajas de usar TypeScript sobre JavaScript estándar es que proporciona verificación de tipos estática y herramientas de desarrollo más sólidas, lo que ayuda a evitar errores de tiempo de ejecución y facilita el desarrollo.",
+    "codeExample": ""
+  },
+  {
+    "id": 22,
+    "level": "Medio",
+    "question": "¿Cuál es el propósito de 'import' y 'export' en los módulos de TypeScript?",
+    "code": null,
+    "answers": [
+      "Declarar variables locales",
+      "Definir funciones",
+      "Importar y exportar código entre módulos",
+      "Crear comentarios en el código fuente"
+    ],
+    "correctAnswer": 2,
+    "help": "Las palabras clave 'import' y 'export' están relacionadas con módulos en TypeScript.",
+    "explanation": "El propósito de 'import' y 'export' en los módulos de TypeScript es permitir la importación y exportación de código entre diferentes módulos, lo que facilita la organización y reutilización del código.",
+    "codeExample": ""
+  },
+  {
+    "id": 23,
+    "level": "Difícil",
+    "question": "¿Qué es una restricción genérica en TypeScript y cuál es su propósito?",
+    "code": null,
+    "answers": [
+      "Una restricción para limitar el acceso a ciertos archivos en TypeScript",
+      "Una característica que permite restringir el acceso a ciertos miembros de una clase",
+      "Una limitación en el uso de tipos genéricos para especificar que un tipo debe extender otro tipo",
+      "Una restricción en el uso de variables globales en TypeScript"
+    ],
+    "correctAnswer": 2,
+    "help": "Las restricciones genéricas son importantes en TypeScript para tipos genéricos.",
+    "explanation": "Una restricción genérica en TypeScript es una limitación en el uso de tipos genéricos que especifica que un tipo genérico debe extender otro tipo o cumplir ciertas condiciones. Su propósito es permitir un mayor control sobre los tipos que se pueden usar en funciones o clases genéricas.",
+    "codeExample": ""
+  },
+  {
+    "id": 24,
+    "level": "Difícil",
+    "question": "¿Qué es un tipo genérico en TypeScript y cómo se utiliza?",
+    "code": null,
+    "answers": [
+      "Un tipo que representa cualquier valor",
+      "Un tipo que se aplica a objetos específicos",
+      "Un tipo que se usa para definir clases abstractas",
+      "Un tipo que permite escribir funciones y clases que pueden trabajar con diferentes tipos de datos"
+    ],
+    "correctAnswer": 3,
+    "help": "Los tipos genéricos son una característica clave de TypeScript.",
+    "explanation": "Un tipo genérico en TypeScript es un tipo que permite escribir funciones y clases que pueden trabajar con diferentes tipos de datos. Se utiliza utilizando parámetros de tipo genérico dentro de ángulos '<>' para especificar tipos flexibles que se determinan al utilizar la función o clase.",
+    "codeExample": ""
+  },
+  {
+    "id": 25,
+    "level": "Difícil",
+    "question": "En TypeScript, ¿qué es un 'decorador' y cómo se utiliza?",
+    "code": null,
+    "answers": [
+      "Una palabra clave para declarar clases",
+      "Un patrón de diseño para encapsular propiedades privadas",
+      "Una función que modifica la lógica de una clase o método",
+      "Un operador para comparar valores"
+    ],
+    "correctAnswer": 2,
+    "help": "Los decoradores son una característica importante de TypeScript.",
+    "explanation": "En TypeScript, un 'decorador' es una función que puede modificar la lógica de una clase o método. Se utiliza colocando el decorador justo antes de la declaración de la clase o método que se desea modificar.",
+    "codeExample": ""
+  },
+  {
+    "id": 26,
+    "level": "Difícil",
+    "question": "¿Cuál es el propósito de 'namespace' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Definir espacios de nombres para organizar código",
+      "Importar módulos externos",
+      "Declarar variables locales",
+      "Crear funciones anidadas"
+    ],
+    "correctAnswer": 0,
+    "help": "El 'namespace' es una característica de organización en TypeScript.",
+    "explanation": "El propósito de 'namespace' en TypeScript es definir espacios de nombres para organizar y encapsular código. Se utiliza para agrupar lógica relacionada en un espacio de nombres separado.",
+    "codeExample": ""
+  },
+  {
+    "id": 27,
+    "level": "Difícil",
+    "question": "¿Qué es un 'módulo ambiental' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Un módulo que interactúa con el entorno de ejecución",
+      "Un módulo que no tiene acceso a variables globales",
+      "Un módulo de TypeScript que no se compila a JavaScript",
+      "Un módulo de JavaScript que no es compatible con TypeScript"
+    ],
+    "correctAnswer": 0,
+    "help": "Los módulos ambientales son una característica específica de TypeScript.",
+    "explanation": "Un 'módulo ambiental' en TypeScript es un módulo que interactúa con el entorno de ejecución, como el navegador o Node.js. Proporciona declaraciones que describen las variables globales disponibles en ese entorno.",
+    "codeExample": ""
+  },
+  {
+    "id": 28,
+    "level": "Difícil",
+    "question": "En TypeScript, ¿qué es una 'intersección de tipos' y cómo se utiliza?",
+    "code": null,
+    "answers": [
+      "Una operación para combinar múltiples tipos en uno solo",
+      "Una operación para dividir un tipo en varios subtipos",
+      "Una operación para eliminar tipos de una variable",
+      "Una operación para renombrar tipos"
+    ],
+    "correctAnswer": 0,
+    "help": "Las intersecciones de tipos son una característica avanzada de TypeScript.",
+    "explanation": "Una 'intersección de tipos' en TypeScript es una operación que combina múltiples tipos en uno solo. Se utiliza el operador '&' para realizar intersecciones de tipos.",
+    "codeExample": ""
+  },
+  {
+    "id": 29,
+    "level": "Difícil",
+    "question": "¿Qué es una 'unión de tipos' en TypeScript y cuál es su propósito?",
+    "code": null,
+    "answers": [
+      "Una operación para combinar múltiples tipos en uno solo",
+      "Una operación para dividir un tipo en varios subtipos",
+      "Una operación para eliminar tipos de una variable",
+      "Una operación para renombrar tipos"
+    ],
+    "correctAnswer": 0,
+    "help": "Las uniones de tipos son una característica clave de TypeScript.",
+    "explanation": "Una 'unión de tipos' en TypeScript es una operación que combina múltiples tipos en uno solo. Su propósito es permitir que una variable pueda tener varios tipos posibles.",
+    "codeExample": ""
+  },
+  {
+    "id": 30,
+    "level": "Difícil",
+    "question": "¿Qué es una 'clase abstracta' en TypeScript y cuál es su uso principal?",
+    "code": null,
+    "answers": [
+      "Una clase que no se puede utilizar",
+      "Una clase que solo puede ser heredada pero no instanciada",
+      "Una clase que no tiene propiedades ni métodos",
+      "Una clase que no se puede heredar"
+    ],
+    "correctAnswer": 1,
+    "help": "Las clases abstractas son una característica importante de TypeScript.",
+    "explanation": "Una 'clase abstracta' en TypeScript es una clase que solo puede ser heredada pero no instanciada. Su uso principal es proporcionar una base común para clases hijas y definir métodos que deben implementarse en las clases hijas.",
+    "codeExample": ""
+  },
+  {
+    "id": 31,
+    "level": "Difícil",
+    "question": "¿Cuál es el propósito de los 'módulos ambientales' ('ambient modules') en TypeScript?",
+    "code": null,
+    "answers": [
+      "Definir el comportamiento de un módulo",
+      "Definir variables globales en un módulo",
+      "Especificar que un módulo solo puede ser utilizado en ciertos entornos",
+      "Eliminar un módulo"
+    ],
+    "correctAnswer": 2,
+    "help": "Los módulos ambientales son una característica específica de TypeScript.",
+    "explanation": "El propósito de los 'módulos ambientales' en TypeScript es especificar que un módulo solo puede ser utilizado en ciertos entornos (como el navegador o Node.js) y proporcionar declaraciones que describan las variables globales disponibles en ese entorno.",
+    "codeExample": ""
+  },
+  {
+    "id": 32,
+    "level": "Difícil",
+    "question": "¿Qué es un 'archivo de declaración' ('declaration file') en TypeScript y cuál es su función?",
+    "code": null,
+    "answers": [
+      "Un archivo que declara variables locales",
+      "Un archivo que declara tipos y proporciona información sobre un módulo",
+      "Un archivo que declara variables globales",
+      "Un archivo que se utiliza para documentación solamente"
+    ],
+    "correctAnswer": 1,
+    "help": "Los archivos de declaración son importantes para la interoperabilidad de TypeScript.",
+    "explanation": "Un 'archivo de declaración' en TypeScript es un archivo que declara tipos y proporciona información sobre un módulo o librería JavaScript existente. Su función principal es permitir que TypeScript interactúe con librerías JavaScript que no tienen tipos TypeScript definidos.",
+    "codeExample": ""
+  },
+  {
+    "id": 33,
+    "level": "Difícil",
+    "question": "En TypeScript, ¿qué es un 'tipo literal' y cuál es su uso principal?",
+    "code": null,
+    "answers": [
+      "Un tipo que representa un valor constante",
+      "Un tipo que solo puede ser utilizado en clases",
+      "Un tipo que solo puede ser utilizado en funciones",
+      "Un tipo que cambia dinámicamente"
+    ],
+    "correctAnswer": 0,
+    "help": "Los tipos literales son una característica importante de TypeScript.",
+    "explanation": "Un 'tipo literal' en TypeScript es un tipo que representa un valor constante específico, como 'string', 'number' o 'boolean'. Su uso principal es restringir el conjunto de valores que una variable puede contener.",
+    "codeExample": ""
+  },
+  {
+    "id": 34,
+    "level": "Difícil",
+    "question": "¿Qué es la inferencia de tipos condicional en TypeScript y cuándo se utiliza?",
+    "code": null,
+    "answers": [
+      "Un proceso para cambiar el tipo de una variable en tiempo de ejecución",
+      "Un proceso para deducir automáticamente tipos en función de condiciones",
+      "Un proceso para eliminar tipos en tiempo de compilación",
+      "Un proceso para declarar tipos explícitamente"
+    ],
+    "correctAnswer": 1,
+    "help": "La inferencia de tipos condicional es una característica avanzada de TypeScript.",
+    "explanation": "La inferencia de tipos condicional en TypeScript es un proceso que deduce automáticamente tipos en función de condiciones en el código. Se utiliza cuando se necesita que el compilador determine los tipos de manera dinámica en lugar de declararlos explícitamente.",
+    "codeExample": ""
+  },
+  {
+    "id": 35,
+    "level": "Difícil",
+    "question": "En TypeScript, ¿qué es un 'alias de tipo' y cómo se declara?",
+    "code": null,
+    "answers": [
+      "Un tipo que representa una función",
+      "Un tipo que se utiliza para declarar propiedades de una clase",
+      "Un nombre alternativo para un tipo existente",
+      "Una variable que almacena múltiples tipos"
+    ],
+    "correctAnswer": 2,
+    "help": "Los alias de tipo son una característica importante de TypeScript.",
+    "explanation": "Un 'alias de tipo' en TypeScript es un nombre alternativo que se utiliza para referirse a un tipo existente. Se declara utilizando la palabra clave 'type' seguida del alias de tipo y la definición del tipo.",
+    "codeExample": ""
+  },
+  {
+    "id": 36,
+    "level": "Difícil",
+    "question": "¿Cuál es el propósito de 'async' y 'await' en TypeScript y cómo se utilizan?",
+    "code": null,
+    "answers": [
+      "Son palabras clave para declarar funciones asincrónicas",
+      "Son palabras clave para declarar funciones síncronas",
+      "Son palabras clave para declarar funciones que no requieren devolución de llamada",
+      "Son palabras clave para declarar funciones recursivas"
+    ],
+    "correctAnswer": 0,
+    "help": "'async' y 'await' son importantes para el manejo de asincronía en TypeScript.",
+    "explanation": "Las palabras clave 'async' y 'await' se utilizan en TypeScript para declarar y gestionar funciones asincrónicas. 'async' se coloca antes de una función para indicar que es asincrónica, y 'await' se usa dentro de una función asincrónica para esperar la resolución de una Promesa antes de continuar.",
+    "codeExample": ""
+  },
+  {
+    "id": 37,
+    "level": "Difícil",
+    "question": "¿Cuál es el propósito de 'never' en TypeScript y cuándo se utiliza?",
+    "code": null,
+    "answers": [
+      "Un tipo que representa un valor nulo",
+      "Un tipo que nunca se utiliza en TypeScript",
+      "Un tipo que representa un valor que nunca ocurre",
+      "Un tipo que representa un bucle infinito"
+    ],
+    "correctAnswer": 2,
+    "help": "El tipo 'never' es importante para casos especiales en TypeScript.",
+    "explanation": "El tipo 'never' en TypeScript se utiliza para representar un valor que nunca ocurre, como una función que siempre lanza una excepción o un bucle que nunca termina. Es útil en situaciones donde una función nunca devuelve un valor o no tiene un final predecible.",
+    "codeExample": ""
+  },
+  {
+    "id": 38,
+    "level": "Difícil",
+    "question": "¿Cuál es el propósito de 'Mapped Types' en TypeScript y cómo se definen?",
+    "code": null,
+    "answers": [
+      "Son tipos que representan mapas de objetos",
+      "Son tipos que mapean valores a tipos",
+      "Son tipos que solo se utilizan en el navegador",
+      "Son tipos que definen interfaces genéricas"
+    ],
+    "correctAnswer": 1,
+    "help": "Los 'Mapped Types' son una característica avanzada de TypeScript.",
+    "explanation": "Los 'Mapped Types' en TypeScript son tipos que mapean valores a tipos, permitiendo transformar tipos existentes o crear nuevos tipos a partir de una estructura existente. Se definen utilizando una sintaxis especial que permite especificar cómo se deben mapear los tipos.",
+    "codeExample": ""
+  },
+  {
+    "id": 39,
+    "level": "Difícil",
+    "question": "En TypeScript, ¿qué es una 'tupla' y cuál es su característica principal?",
+    "code": null,
+    "answers": [
+      "Una estructura de datos para almacenar valores relacionados",
+      "Un tipo que representa una cadena de caracteres",
+      "Un tipo que se utiliza para declarar funciones",
+      "Una estructura de datos para almacenar tipos de datos diferentes en una secuencia fija"
+    ],
+    "correctAnswer": 3,
+    "help": "Las tuplas son una característica específica de TypeScript.",
+    "explanation": "En TypeScript, una 'tupla' es una estructura de datos que permite almacenar tipos de datos diferentes en una secuencia fija y predefinida. La característica principal de las tuplas es que la longitud y los tipos de elementos son conocidos y pueden ser diferentes.",
+    "codeExample": ""
+  },
+  {
+    "id": 40,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'decoradores' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Una característica de TypeScript que permite decorar elementos visuales en una página web",
+      "Una forma de agregar estilo visual a los elementos de una interfaz de usuario",
+      "Una característica de TypeScript que permite modificar el comportamiento de una clase o sus miembros",
+      "Una forma de aplicar efectos de animación en TypeScript"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 41,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'módulos' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Una forma de agrupar y organizar archivos en un proyecto de TypeScript",
+      "Un tipo especial de función en TypeScript que encapsula un bloque de código reutilizable",
+      "Una característica de TypeScript que permite definir estructuras de datos complejas",
+      "Una forma de establecer la conexión con una base de datos en TypeScript"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'tipos literales' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Una forma de definir tipos de datos basados en el contenido textual de una variable",
+      "Una característica de TypeScript que permite definir cadenas de texto de longitud fija",
+      "Una forma de establecer tipos de datos numéricos específicos en TypeScript",
+      "Una característica de TypeScript que permite declarar variables sin asignarles un valor inicial"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 43,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'type assertion' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Una forma de especificar el tipo de una variable al momento de su declaración",
+      "Una característica de TypeScript que permite asignar un tipo a una expresión en una operación",
+      "Una forma de convertir un tipo de dato en otro tipo compatible en TypeScript",
+      "Una característica de TypeScript que permite agregar anotaciones de tipo a un código existente"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 44,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'namespaces' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Una forma de agrupar y organizar archivos en un proyecto de TypeScript",
+      "Una forma de establecer el ámbito de visibilidad de las variables y funciones en TypeScript",
+      "Una característica de TypeScript que permite definir estructuras de datos complejas",
+      "Una forma de encapsular código en un bloque independiente para evitar colisiones de nombres"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 45,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'index signature' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Una forma de asignar un índice numérico a una propiedad de un objeto en TypeScript",
+      "Una característica de TypeScript que permite definir la estructura de un objeto utilizando claves y tipos de datos",
+      "Una forma de establecer el alcance de una variable dentro de un bloque específico en TypeScript",
+      "Una característica de TypeScript que permite declarar variables sin asignarles un valor inicial"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 46,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'union types' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Una forma de combinar dos o más tipos de datos en uno solo en TypeScript",
+      "Una característica de TypeScript que permite definir cadenas de texto de longitud fija",
+      "Una forma de establecer tipos de datos numéricos específicos en TypeScript",
+      "Una característica de TypeScript que permite declarar variables sin asignarles un valor inicial"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'tipado estructural' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Una forma de asignar tipos a variables y expresiones en tiempo de ejecución",
+      "Una forma de definir la estructura de un objeto y los tipos de sus propiedades en TypeScript",
+      "Una característica de TypeScript que permite declarar variables sin asignarles un valor inicial",
+      "Una forma de establecer el alcance de una variable dentro de un bloque específico en TypeScript"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 49,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'funciones genéricas' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Un tipo de dato específico en TypeScript que se utiliza para representar una lista de valores",
+      "Una forma de crear funciones que pueden aceptar y devolver diferentes tipos de datos",
+      "Una característica de TypeScript que permite definir estructuras de datos complejas",
+      "Una forma de restringir los tipos de datos que se pueden asignar a una variable en TypeScript"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 50,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'TypeScript Compiler'?",
+    "code": null,
+    "answers": [
+      "Una herramienta que transforma el código TypeScript en código JavaScript",
+      "Una característica de TypeScript que permite definir cadenas de texto de longitud fija",
+      "Un módulo que se utiliza para cargar y ejecutar código TypeScript",
+      "Una forma de establecer tipos de datos numéricos específicos en TypeScript"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "level": "Difícil",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'TypeScript Compiler'?",
+    "code": null,
+    "answers": [
+      "Una herramienta que transforma el código TypeScript en código JavaScript",
+      "Una característica de TypeScript que permite definir cadenas de texto de longitud fija",
+      "Un módulo que se utiliza para cargar y ejecutar código TypeScript",
+      "Una forma de establecer tipos de datos numéricos específicos en TypeScript"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 53,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'tipos literales' en TypeScript?",
+    "code": null,
+    "answers": [
+      "Una forma de definir tipos de datos basados en el contenido textual de una variable",
+      "Una característica de TypeScript que permite definir cadenas de texto de longitud fija",
+      "Una forma de establecer tipos de datos numéricos específicos en TypeScript",
+      "Una característica de TypeScript que permite declarar variables sin asignarles un valor inicial"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 54,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes opciones describe mejor el concepto de 'inferencia de tipos' en TypeScript?",
+    "code": null,
+    "answers": [
+      "La capacidad de asignar tipos a variables y expresiones en tiempo de ejecución",
+      "La verificación de tipos en tiempo de compilación",
+      "La capacidad de deducir automáticamente el tipo de una variable en base a su valor",
+      "La ausencia de tipos en TypeScript"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 55,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes opciones describe mejor el uso de las interfaces en TypeScript?",
+    "code": null,
+    "answers": [
+      "Las interfaces se utilizan para definir una implementación concreta de una clase",
+      "Las interfaces se utilizan para crear objetos en TypeScript",
+      "Las interfaces se utilizan para definir la estructura de un objeto y los tipos de sus propiedades",
+      "Las interfaces se utilizan para declarar variables en TypeScript"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 56,
+    "level": "Medio",
+    "question": "¿Cuál de las siguientes palabras clave se utiliza en TypeScript para definir una función?",
+    "code": null,
+    "answers": [
+      "function",
+      "def",
+      "class",
+      "interface"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 57,
+    "level": "Medio",
+    "question": "¿Cuál es la forma correcta de declarar un arreglo de números en TypeScript?",
+    "code": null,
+    "answers": [
+      "let numbers: Array<number>",
+      "let numbers: number[]",
+      "let numbers: Array<string>",
+      "let numbers: string[]"
+    ],
+    "correctAnswer": 1
+  }
+          
+
+]
