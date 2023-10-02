@@ -1,5 +1,5 @@
 
-import { Moon, Sun } from '../assets/icons'
+import { Moon, Sun } from '../assets/icons/Icons'
 import { useTheme } from '../hooks'
 
 export const Switch = () => {

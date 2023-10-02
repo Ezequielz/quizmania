@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { Navbar } from './Navbar'
-// import { Footer } from './'
+import { Footer } from './'
 
 interface Props {
   children: React.ReactNode
@@ -12,13 +12,13 @@ export const QuizzLayout: FC<Props> = ({ children }) => {
       <header>
         <Navbar />
       </header>
-      <main className=''>
+      <main className='min-h-[80vh]'>
         {children}
       </main>
 
-      {/* <footer className='absolute w-full'>
+      <footer className='relative w-full'>
         <Footer />
-      </footer> */}
+      </footer>
 
     </div>
   )
